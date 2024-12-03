@@ -16,3 +16,4 @@ local.properties
 /.idea/appInsightsSettings.xml
 /.idea/compiler.xml
 /.idea/vcs.xml
+/.idea/*
