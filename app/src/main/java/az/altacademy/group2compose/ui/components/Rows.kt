@@ -1,4 +1,4 @@
-package az.altacademy.group2compose.ui.screens
+package az.altacademy.group2compose.ui.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row

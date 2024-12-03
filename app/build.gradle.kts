@@ -69,4 +69,5 @@ dependencies {
 
     implementation(libs.viewmodel)
     implementation(libs.navigation)
+    implementation(libs.coil.compose)
 }

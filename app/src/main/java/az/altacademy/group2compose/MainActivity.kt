@@ -35,6 +35,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import az.altacademy.group2compose.ui.screens.LoginPage
+import az.altacademy.group2compose.ui.screens.SettingsPage
 import az.altacademy.group2compose.ui.screens.Task1
 import az.altacademy.group2compose.ui.screens.Task2
 import az.altacademy.group2compose.ui.theme.Group2ComposeTheme
@@ -46,11 +48,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 //        enableEdgeToEdge()
         setContent {
-            FirstScreen(onClick = {
-                Toast
-                    .makeText(this, "kotlin clicked", Toast.LENGTH_SHORT)
-                    .show()
-            })
+            SettingsPage()
         }
     }
 }
@@ -148,6 +146,7 @@ fun RecyclerViewTest(list: List<String>) {
         }
     }
 }
+
 
 @Composable
 fun ShapesTest(onClick: (() -> Unit)?){

@@ -10,7 +10,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import az.altacademy.group2compose.FirstScreen
+import az.altacademy.group2compose.ui.theme.Group2ComposeTheme
 import az.altacademy.group2compose.ui.theme.PurpleDark
 import az.altacademy.group2compose.ui.theme.PurpleLight
 
@@ -62,3 +65,13 @@ fun Task1(){
         }
     }
 }
+
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    Group2ComposeTheme {
+        Task1()
+    }
+}
+
